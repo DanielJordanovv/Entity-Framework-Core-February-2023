@@ -33,7 +33,7 @@ public partial class SoftUniContext : DbContext
     {
         if (!optionsBuilder.IsConfigured)
         {
-            optionsBuilder.UseSqlServer("Server=DESKTOP-FD1198C;Database=SoftUni;Integrated Security=True;");
+            optionsBuilder.UseSqlServer("Server=.;Database=SoftUni;Integrated Security=True;");
         }
     }
 
